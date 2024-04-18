@@ -5,7 +5,9 @@ import cors from 'cors';
 import roleRoute from './routes/role.js'
 import authRoute from './routes/auth.js';
 import userRoute from './routes/user.js'
+import veggiesRoute from './routes/veggies.js'
 import cookieParser from 'cookie-parser';
+import { seedVeggiesData } from './seed.js';
 
 
 const app = express();
@@ -27,6 +29,7 @@ app.use(cors({
 app.use('/api/role',roleRoute);
 app.use('/api/auth',authRoute);
 app.use('/api/user',userRoute);
+app.use('/api/veggies',veggiesRoute);
 
 //Response handler Middleware
 app.use((obj, req, res,next) => {
@@ -44,6 +47,10 @@ app.use((obj, req, res,next) => {
 const connectToDB = async ()=>{
     try {
         await mongoose.connect(process.env.Mongo_URL);
+        if(process.argv.includes("--seed"))
+        {
+            await seedVeggiesData();
+        }
         console.log("Connected to the DataBase");
     } catch (error) {
         console.log("Connection Failed");

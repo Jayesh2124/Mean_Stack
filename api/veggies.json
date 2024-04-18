@@ -1,0 +1,73 @@
+[
+   
+      {
+        "name": "Carrot",
+        "color": "Orange",
+        "type": "Root Vegetable",
+        "nutrients": ["Vitamin A", "Vitamin K", "Potassium", "Fiber"],
+        "price_per_kg": 20
+      },
+      {
+        "name": "Broccoli",
+        "color": "Green",
+        "type": "Cruciferous Vegetable",
+        "nutrients": ["Vitamin C", "Vitamin K", "Folate", "Fiber"],
+        "price_per_kg": 60
+      },
+      {
+        "name": "Tomato",
+        "color": "Red",
+        "type": "Fruit (often used as a vegetable)",
+        "nutrients": ["Vitamin C", "Vitamin K", "Potassium", "Lycopene"],
+        "price_per_kg": 30
+      },
+      {
+        "name": "Spinach",
+        "color": "Green",
+        "type": "Leafy Green",
+        "nutrients": ["Iron", "Calcium", "Vitamin K", "Vitamin A"],
+        "price_per_kg": 25
+      },
+      {
+        "name": "Bell Pepper",
+        "color": "Red/Yellow/Green",
+        "type": "Fruit (often used as a vegetable)",
+        "nutrients": ["Vitamin C", "Vitamin A", "Fiber"],
+        "price_per_kg": 80
+      },
+      {
+        "name": "Cucumber",
+        "color": "Green",
+        "type": "Gourd",
+        "nutrients": ["Vitamin K", "Potassium", "Magnesium"],
+        "price_per_kg": 20
+      },
+      {
+        "name": "Onion",
+        "color": "White/Yellow/Red",
+        "type": "Bulb Vegetable",
+        "nutrients": ["Fiber", "Vitamin C", "Folate"],
+        "price_per_kg": 15
+      },
+      {
+        "name": "Potato",
+        "color": "Brown/Yellow/Red",
+        "type": "Tuber Vegetable",
+        "nutrients": ["Vitamin C", "Potassium", "Fiber"],
+        "price_per_kg": 20
+      },
+      {
+        "name": "Lettuce",
+        "color": "Green",
+        "type": "Leafy Green",
+        "nutrients": ["Vitamin K", "Vitamin A", "Folate"],
+        "price_per_kg": 40
+      },
+      {
+        "name": "Zucchini",
+        "color": "Green",
+        "type": "Gourd",
+        "nutrients": ["Vitamin C", "Potassium", "Fiber"],
+        "price_per_kg": 35
+      }
+]
