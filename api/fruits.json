@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Apple",
+        "color": "Red/Green/Yellow",
+        "type": "Pome Fruit",
+        "nutrients": [
+            "Fiber",
+            "Vitamin C",
+            "Potassium"
+        ],
+        "price_per_kg": 80
+    },
+    {
+        "name": "Banana",
+        "color": "Yellow/Green",
+        "type": "Berry",
+        "nutrients": [
+            "Potassium",
+            "Vitamin B6",
+            "Vitamin C"
+        ],
+        "price_per_kg": 30
+    },
+    {
+        "name": "Orange",
+        "color": "Orange",
+        "type": "Citrus Fruit",
+        "nutrients": [
+            "Vitamin C",
+            "Fiber",
+            "Potassium"
+        ],
+        "price_per_kg": 60
+    },
+    {
+        "name": "Grapes",
+        "color": "Green/Red/Black",
+        "type": "Berry",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin K",
+            "Resveratrol"
+        ],
+        "price_per_kg": 120
+    },
+    {
+        "name": "Mango",
+        "color": "Yellow/Orange",
+        "type": "Stone Fruit",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin A",
+            "Fiber"
+        ],
+        "price_per_kg": 100
+    },
+    {
+        "name": "Strawberry",
+        "color": "Red",
+        "type": "Berry",
+        "nutrients": [
+            "Vitamin C",
+            "Fiber",
+            "Antioxidants"
+        ],
+        "price_per_kg": 150
+    },
+    {
+        "name": "Pineapple",
+        "color": "Yellow",
+        "type": "Tropical Fruit",
+        "nutrients": [
+            "Vitamin C",
+            "Manganese",
+            "Bromelain"
+        ],
+        "price_per_kg": 40
+    },
+    {
+        "name": "Watermelon",
+        "color": "Green/Red",
+        "type": "Melon",
+        "nutrients": [
+            "Vitamin C",
+            "Lycopene",
+            "Water"
+        ],
+        "price_per_kg": 20
+    },
+    {
+        "name": "Kiwi",
+        "color": "Brown/Green",
+        "type": "Tropical Fruit",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin K",
+            "Fiber"
+        ],
+        "price_per_kg": 100
+    },
+    {
+        "name": "Peach",
+        "color": "Yellow/Red",
+        "type": "Stone Fruit",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin A",
+            "Fiber"
+        ],
+        "price_per_kg": 80
+    }
+]
