@@ -28,7 +28,7 @@ const userSchema = new mongoose.Schema(
         profileImage:{
             type: String,
             required: false,
-            default :"https://www.flaticon.com/free-animated-icon/man_12761844?term=user&page=1&position=65&origin=tag&related_id=12761844"
+            default :"https://cdn-icons-png.flaticon.com/128/4140/4140048.png"
         },
         isAdmin:{
             type: Boolean,
@@ -44,6 +44,8 @@ const userSchema = new mongoose.Schema(
         timestamps: true
     }
 );
+
+
 
 
 export const User = mongoose.model("User",userSchema);

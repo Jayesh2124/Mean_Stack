@@ -5,11 +5,13 @@ import cors from 'cors';
 import roleRoute from './routes/role.js'
 import authRoute from './routes/auth.js';
 import userRoute from './routes/user.js'
+import babiesProductRoute from './routes/babiesProduct.js'
 import veggiesRoute from './routes/veggies.js'
 import fruitsRouter from './routes/fruits.js'
 import cookieParser from 'cookie-parser';
 import seedVeggiesData  from './seed.js';
 import seedFruitsData from './fruitsSeeding.js'
+import seedingBabiesProducts from './babiesProduts.js';
 
 
 const app = express();
@@ -33,6 +35,7 @@ app.use('/api/auth',authRoute);
 app.use('/api/user',userRoute);
 app.use('/api/veggies',veggiesRoute);
 app.use('/api/fruits',fruitsRouter);
+app.use('/api/BabiesProducts',babiesProductRoute);
 
 //Response handler Middleware
 app.use((obj, req, res,next) => {
@@ -54,6 +57,7 @@ const connectToDB = async ()=>{
         {
             await seedVeggiesData();
             await seedFruitsData();
+            await seedingBabiesProducts();
         }
         console.log("Connected to the DataBase");
     } catch (error) {

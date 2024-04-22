@@ -95,8 +95,6 @@ export const sendEmail = async (req, res, next) => {
         if (!user) {
             return next(CreateError(404, "User not found to rest the email!"));
         }
-
-        console.log(user);
         const payload = {
             email: user.emails
         }
@@ -174,7 +172,6 @@ export const resetPassword = (req,res,next) =>{
         }
         else{
             const response = data
-            console.log(response);
             const user = await User.findOne({ emails: { $regex: '^' + response.email + '$', $options: 'i' } })
             const salt = await bcrypt.genSalt(10);
             const encryptedPassword = await bcrypt.hash(newPassword,salt);
