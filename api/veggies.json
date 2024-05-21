@@ -1,116 +1,110 @@
 [
   {
-    "name": "Carrot",
-    "color": "Orange",
-    "type": "Root Vegetable",
-    "nutrients": [
-      "Vitamin A",
-      "Vitamin K",
-      "Potassium",
-      "Fiber"
-    ],
-    "price_per_kg": 20
+    "name": "Apple",
+    "category": "fruit",
+    "price": 150,
+    "quantity": 100,
+    "description": "Fresh and crunchy apple",
+    "imageUrl": "https://example.com/apple.jpg",
+    "inStock": true
   },
   {
-    "name": "Broccoli",
-    "color": "Green",
-    "type": "Cruciferous Vegetable",
-    "nutrients": [
-      "Vitamin C",
-      "Vitamin K",
-      "Folate",
-      "Fiber"
-    ],
-    "price_per_kg": 60
+    "name": "Banana",
+    "category": "fruit",
+    "price": 75,
+    "quantity": 150,
+    "description": "Ripe and sweet banana",
+    "imageUrl": "https://example.com/banana.jpg",
+    "inStock": true
   },
   {
-    "name": "Tomato",
-    "color": "Red",
-    "type": "Fruit (often used as a vegetable)",
-    "nutrients": [
-      "Vitamin C",
-      "Vitamin K",
-      "Potassium",
-      "Lycopene"
-    ],
-    "price_per_kg": 30
+    "name": "Mango",
+    "category": "fruit",
+    "price": 200,
+    "quantity": 80,
+    "description": "Juicy and delicious mango",
+    "imageUrl": "https://example.com/mango.jpg",
+    "inStock": true
+  },
+  {
+    "name": "Grapes",
+    "category": "fruit",
+    "price": 120,
+    "quantity": 120,
+    "description": "Sweet and refreshing grapes",
+    "imageUrl": "https://example.com/grapes.jpg",
+    "inStock": true
   },
   {
     "name": "Spinach",
-    "color": "Green",
-    "type": "Leafy Green",
-    "nutrients": [
-      "Iron",
-      "Calcium",
-      "Vitamin K",
-      "Vitamin A"
-    ],
-    "price_per_kg": 25
+    "category": "vegetable",
+    "price": 200,
+    "quantity": 80,
+    "description": "Fresh and nutritious spinach",
+    "imageUrl": "https://example.com/spinach.jpg",
+    "inStock": true
   },
   {
-    "name": "Bell Pepper",
-    "color": "Red/Yellow/Green",
-    "type": "Fruit (often used as a vegetable)",
-    "nutrients": [
-      "Vitamin C",
-      "Vitamin A",
-      "Fiber"
-    ],
-    "price_per_kg": 80
-  },
-  {
-    "name": "Cucumber",
-    "color": "Green",
-    "type": "Gourd",
-    "nutrients": [
-      "Vitamin K",
-      "Potassium",
-      "Magnesium"
-    ],
-    "price_per_kg": 20
-  },
-  {
-    "name": "Onion",
-    "color": "White/Yellow/Red",
-    "type": "Bulb Vegetable",
-    "nutrients": [
-      "Fiber",
-      "Vitamin C",
-      "Folate"
-    ],
-    "price_per_kg": 15
+    "name": "Carrot",
+    "category": "vegetable",
+    "price": 100,
+    "quantity": 120,
+    "description": "Crunchy and sweet carrot",
+    "imageUrl": "https://example.com/carrot.jpg",
+    "inStock": true
   },
   {
     "name": "Potato",
-    "color": "Brown/Yellow/Red",
-    "type": "Tuber Vegetable",
-    "nutrients": [
-      "Vitamin C",
-      "Potassium",
-      "Fiber"
-    ],
-    "price_per_kg": 20
+    "category": "vegetable",
+    "price": 50,
+    "quantity": 200,
+    "description": "Versatile and nutritious potato",
+    "imageUrl": "https://example.com/potato.jpg",
+    "inStock": true
   },
   {
-    "name": "Lettuce",
-    "color": "Green",
-    "type": "Leafy Green",
-    "nutrients": [
-      "Vitamin K",
-      "Vitamin A",
-      "Folate"
-    ],
-    "price_per_kg": 40
+    "name": "Onion",
+    "category": "vegetable",
+    "price": 60,
+    "quantity": 180,
+    "description": "Essential cooking ingredient onion",
+    "imageUrl": "https://example.com/onion.jpg",
+    "inStock": true
   },
   {
-    "name": "Zucchini",
-    "color": "Green",
-    "type": "Gourd",
-    "nutrients": [
-      "Vitamin C",
-      "Potassium",
-      "Fiber"
-    ],
-    "price_per_kg": 35
+    "name": "Rice",
+    "category": "grocery",
+    "price": 600,
+    "quantity": 200,
+    "description": "High-quality rice",
+    "imageUrl": "https://example.com/rice.jpg",
+    "inStock": true
+  },
+  {
+    "name": "Wheat Flour",
+    "category": "grocery",
+    "price": 250,
+    "quantity": 150,
+    "description": "Premium quality wheat flour",
+    "imageUrl": "https://example.com/wheat_flour.jpg",
+    "inStock": true
+  },
+  {
+    "name": "Pulses",
+    "category": "grocery",
+    "price": 120,
+    "quantity": 180,
+    "description": "Assorted pulses pack",
+    "imageUrl": "https://example.com/pulses.jpg",
+    "inStock": true
+  },
+  {
+    "name": "Cooking Oil",
+    "category": "grocery",
+    "price": 180,
+    "quantity": 120,
+    "description": "Healthy cooking oil",
+    "imageUrl": "https://example.com/cooking_oil.jpg",
+    "inStock": true
   }
 ]

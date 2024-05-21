@@ -55,8 +55,6 @@ export const getUserByEmail = async (req,res,next)=>{
         const email = req.params.email;
         let userData = await User.findOne({ emails: { $regex: '^' + email + '$', $options: 'i' } })
         const roleData = await Role.findById({_id:userData.roles[0]._id})
-        console.log(userData);
-        console.log(roleData.role);
         //userData.roles.push(roleData.role)
         if(userData)
             return next(CreateSuccess(200,"Here is the UserData",userData))
